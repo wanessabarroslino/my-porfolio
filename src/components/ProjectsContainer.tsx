@@ -5,10 +5,10 @@ const ProjectsContainer = () => {
     <section className="projects-container">
       <h2>Projetos</h2>
       <p>
-        Em construção... Logo mais você verá vários dos meus projetos aqui!
+        Ainda em construção... Logo mais você verá muitos projetos meus aqui!
       </p>
-      <a href='#' className='btn'>
-        Ver Projetos
+      <a href='https://midi-murex.vercel.app/' className='btn'>
+        midi
       </a>
     </section>
   )
