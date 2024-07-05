@@ -16,9 +16,14 @@ const Sidebar = () => {
         <p className='title'>Desenvolvedora Front End</p>
         <SocialNetworks/>
         <InformationContainer/>
+        <div className='btns'>
         <a href={CurriculoPDF} download='Wanessa_Barros_Lino_Curriculo.pdf' className='btn'>
             Download currículo
         </a>
+        <a href='https://youtu.be/I5z9_m9Wtm8' target='_blank' rel="noopener noreferrer" className='btn'>
+            Vídeo trajetória
+        </a>
+        </div>
     </aside>
   );
 };
